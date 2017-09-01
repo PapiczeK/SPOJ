@@ -7,7 +7,7 @@ def CandyCounter(numChildren):
 	if numChildren[0] == numChildren[1]:
 		return numChildren[0]
 	else:
-		while numChildren[0] == numChildren[1]:
+		while numChildren[0] != numChildren[1]:
 			if numChildren[0] > numChildren[1]:
 				numChildren[1] += grupChildrenTwo
 			elif numChildren[0] < numChildren[1]:
