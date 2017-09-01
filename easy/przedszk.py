@@ -17,7 +17,7 @@ def CandyCounter(numChildren):
 for x in range(counterTires):
 	numberOfChildren = input()
 	numberOfChildren = numberOfChildren.split(' ')
-	numberOfChildren = map(int,numberOfChildren)
+	numberOfChildren = list(map(int,numberOfChildren))
 	answers.append(CandyCounter(numberOfChildren))
 
 for x in answers:
