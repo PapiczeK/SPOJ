@@ -20,10 +20,7 @@ def CheckThisShit(word):
 
 for counter in range(count):
 	palindrome = input()
-	if int(palindrome)>10 and int(palindrome)<100:
-		answers.append(CheckThisShit(palindrome))
-	else:
-		answers.append(palindrome + ' 0')
+	answers.append(CheckThisShit(palindrome))
 
 for x in answers:
 	print(x)
